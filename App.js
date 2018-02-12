@@ -17,7 +17,6 @@ import HomeScreen from './components/HomeScreen';
 import ReportScreen from './components/ReportScreen';
 import ReportePerfilScreen from './components/ReportePerfilScreen';
 
-
 const RootStack = StackNavigator ({
     Home: {
       screen: HomeScreen

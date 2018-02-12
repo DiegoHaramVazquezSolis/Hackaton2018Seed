@@ -59,8 +59,7 @@ export default class ReportScreen extends Component {
                         <Picker.Item label="Movilidad" value="Movilidad" color="#d81a1d" />
                         <Picker.Item label="Seguridad" value="Seguridad" color="#2267b1" />
                 </Picker>
-                <Button title="Enviar Reporte" onPress={this.sendReport} />
-                <Text>{params.marker.latitude+" "+params.marker.longitude}</Text>
+                <Button title="Enviar reporte" onPress={this.sendReport} />
             </View>
         );
     }
